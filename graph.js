@@ -3,10 +3,11 @@ Highcharts.chart('container', {
         type: 'bar'
     },
     title: {
-          text: 'Les 10 départements les plus meurtriers'
+          text: 'Les 10 départements les plus meurtriers en 2015'
+           
           },
-    subtitle: {
-       
+    subtitle: { 
+      text: 'et leur évolution depuis 2005'
     },
     xAxis: {
         categories: ['Paris', 'Bouches-du-Rhône','Val-de-Marne', 'Seine-Saint-Denis',  'Hauts-de-Seine', 'Haute-Corse', 'Alpes-Maritimes', 'Essonne', 'Indre-et-Loire', 'Rhône'],
@@ -51,5 +52,8 @@ Highcharts.chart('container', {
     series: [{
       name: 'Année 2015',
           data: [27.9, 19.8, 18.5, 17.2, 16.9, 15.3, 15.3, 11.9, 11.8, 11.4]
+    },{
+          name: 'Année 2005',
+          data: [33.4, 27.9, 16.4, 18.0, 15.8, 25.4, 30.7, 13.6, 9.0, 13.0]
     }]
 });
