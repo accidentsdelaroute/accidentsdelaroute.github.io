@@ -44,7 +44,7 @@ Highcharts.chart('container', {
         floating: false,
         borderWidth: 1,
         backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
-        shadow: true
+        shadow: false
     },
     credits: {
         enabled: false
