@@ -3,7 +3,7 @@ Highcharts.chart('container', {
     type: 'column'
   },
   title: {
-    text: 'Efficacité du casque selon les chocs'
+    text: 'Efficacité du casque selon les'
   },
   xAxis: {
     categories: ['Vélo']
