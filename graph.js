@@ -7,7 +7,7 @@ Highcharts.chart('container', {
            
           },
     subtitle: { 
-      text: 'et leur évolution depuis 2005'
+      text: 'et leur évolution depuis '
     },
     xAxis: {
         categories: ['Paris', 'Bouches-du-Rhône','Val-de-Marne', 'Seine-Saint-Denis',  'Hauts-de-Seine', 'Haute-Corse', 'Alpes-Maritimes', 'Essonne', 'Indre-et-Loire', 'Rhône'],
