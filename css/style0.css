@@ -80,7 +80,7 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: red;
+						color: darkred;
 						display: inline-block;
 						text-decoration: none;
 					}
@@ -378,11 +378,9 @@
 	padding: 1cm;
 	margin: 0
 }
-
 #chapitre3 h2:hover{
 	color: ghostwhite;
 	}
-	
 #submenu31 {
 	background-color: grey;
     border: solid darkred;
