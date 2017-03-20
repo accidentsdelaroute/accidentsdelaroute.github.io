@@ -171,12 +171,12 @@
 	margin: 0;	
 }
 #chapitre1 {
-	background-color: black;
-	background-image: url(../images/angedelaamort.gif);
+	background-color: grey;
+	background-image: url(../images/notenum.gif);
 	background-position: center;
-	background-size: 20%;
+	background-size: 10cm 10cm;
 	display: block;
-		}
+	}
 
 #chapitre1 h1 {
 	font :lighter normal 75pt 'Redcap';
@@ -277,7 +277,7 @@
 	font :lighter normal 75pt 'Redcap';
 	text-align: center;
 	color: darkred;
-	padding: 1cm;
+	padding: 2.5cm;
 	margin: 0;
 }
 
