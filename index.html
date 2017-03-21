@@ -91,7 +91,7 @@
                     <ul class="submenu">
                         <li><a href="#intro">Quelques chiffres</a></li>
                         <li><a href="#intro1">dans la semaine</a></li>
-                        <li><a href="#intro2">dans la journée</a></li>
+                        <li><a href="#intro2">e</a></li>
                         <li><a href="#intro3">Météo</a></li>
                     </ul>
                 </li>
@@ -184,13 +184,7 @@
            
  
 									
-			<iframe width="800" height="450" src="//embed.chartblocks.com/1.0/?c=58c86c0c9973d2760d399d3d&t=3481719420f2a32" frameBorder="0"></iframe>
-		    
 
-									
-            <iframe width="800" height="450" src="//embed.chartblocks.com/1.0/?c=58c874749973d2c30f399d3d&t=db34525e10c38f3" frameBorder="0"></iframe>
-	        <iframe width="800" height="450" src="//embed.chartblocks.com/1.0/?c=58c8755e9973d2cb0f399d3d&t=2239451afd66cb4" frameBorder="0"></iframe>
-						
 
         </header>
     </div>
@@ -260,6 +254,38 @@
            <h2> Nombre d'accidents par âge</h2>
         </header>
     </div>
+	
+	
+     <ul class="nav nav-pills nav-justified"  id = "menu-scatter">
+    <li class="active"><a data-toggle="pill" href="#home">Par âge du conducteur</a></li>
+    <li><a data-toggle="pill" href="#menu1">Par âge des blessés</a></li>
+    <li><a data-toggle="pill" href="#menu2">Par âge des tués</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Par âge du conducteur</h3>
+			<iframe width="800" height="450" src="//embed.chartblocks.com/1.0/?c=58c86c0c9973d2760d399d3d&t=3481719420f2a32" frameBorder="0"></iframe>									
+       						
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Par âge des blessés</h3>
+				<div class="Histo">
+			 <iframe width="800" height="450" src="//embed.chartblocks.com/1.0/?c=58c874749973d2c30f399d3d&t=db34525e10c38f3" frameBorder="0"></iframe>
+			</div>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Par âge des tués</h3>
+				<div class="Histo">
+				  <iframe width="800" height="450" src="//embed.chartblocks.com/1.0/?c=58c8755e9973d2cb0f399d3d&t=2239451afd66cb4" frameBorder="0"></iframe>
+					</div>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+
+	
 </section>
 
 <section id="chapitre3" class="GIF">
@@ -292,7 +318,6 @@
 	 </div>
 	<div class="container">
   
-  <p>To make the tabs toggleable, add the data-toggle="pill" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
      <ul class="nav nav-pills nav-justified"  id = "menu-scatter">
     <li class="active"><a data-toggle="pill" href="#home">La ceinture en voiture</a></li>
     <li><a data-toggle="pill" href="#menu1">Le casque en moto</a></li>
@@ -309,16 +334,16 @@
     </div>
     <div id="menu1" class="tab-pane fade">
       <h3>Le casque en moto</h3>
-	               <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">	
-           <script src="moto.js"></script> 
-           </div>
+				<div class="Histo">
+				<iframe  src="moto.html" class="carte" frameBorder="0" align="center" width="900" height="500" style="margin-bottom:-100px"></iframe>
+				</div>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <div id="menu2" class="tab-pane fade">
       <h3>Le casque en vélo</h3>
-	              <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
-           <script src="velo.js"></script> 
-           </div>
+				<div class="Histo">
+				<iframe  src="velo.html" class="carte" frameBorder="0" align="center" width="900" height="500" style="margin-bottom:-100px"></iframe>
+				</div>
       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
     </div>
   </div>
