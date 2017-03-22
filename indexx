@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Décrypter les accidents de la route en France</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Accidents de la Route en france de l'histoire aux mesures" />
+    <meta name="keywords" content="Accidents de la route,accidents,route,voiture,
+        France,Français, distribution,enfants, piétons, moto, vélo, sécurité, gravité" />
+    <link rel="icon" type="image/png" href="images/commerce.png" />
+
+
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/skel.css" />
+    <link rel="stylesheet" href="css/style0.css" />
+    <link rel="stylesheet" href="css/style-xlarge.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.css">
+    <link rel="stylesheet" href="css/eUGsj.all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="js/json2.min.js"></script>
+            <script type="text/javascript">
+            window.__ltie9 = true;
+            </script>
+        <![endif]-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/json2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
+    <script src="js/bar-chart-1a3f0242ee9d13cef39ccd24a306b422.min.js"></script>
+    <script src="js/chart-753c771b6f0ebc215cab76b0fca5e03aab20b743.min.js"></script>
+    <script src="js/default-5baee189e1a2f0bf680f4910cc958098.min.js"></script>
+    <script src="https://use.fontawesome.com/07d832c20d.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
+    <script src="js/bar-chart-1a3f0242ee9d13cef39ccd24a306b422.min.js"></script>
+    <script src="js/chart-753c771b6f0ebc215cab76b0fca5e03aab20b743.min.js"></script>
+    <script src="js/default-5baee189e1a2f0bf680f4910cc958098.min.js" ></script>
+    <script src="https://use.fontawesome.com/07d832c20d.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-93008974-1', 'auto');
+        ga('send', 'pageview');
+    
+    </script>
+    <audio src="Klaxoncamion.mp3" type="audio/mpeg" autoplay> </audio>
+     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+</head>
+
+<body class="landing">
+    <!-- Header -->
+            <nav class="menu">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#chapitre1">Contexte Generale</a>
+                    <ul class="submenu">
+                        <li><a href="#intro">Quelques chiffres</a></li>
+                        <li><a href="#intro1">dans la semaine</a></li>
+                        <li><a href="#intro2">e</a></li>
+                        <li><a href="#intro3">Météo</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#chapitre2">Description</a>
+                    <ul class="submenu">
+                        <li><a href="#submenu21">Par département</a></li>
+                        <li><a href="#submenu22">Par Véhicule</a></li>
+                        <li><a href="#submenu23">Par Age</a></li>
+                    </ul>
+                </li>
+                <li><a href="#chapitre3">Bonnes Pratiques</a>
+                    <ul class="submenu">
+                        <li><a href="#submenu31">Où s'asseoir</a></li>
+                        <li><a href="#submenu32">Se protéger </a></li>
+                        <li><a href="#submenu33">Submenu c</a></li>
+                    </ul>  
+                </li>
+               <li> <a href="#footer">Contactez-nous</a></li> 
+      </nav>
+
+<!-- Banner -->
+<section id="banner">
+    <h2> Accidents de la route en France </h2>
+    <h4>De la description des accidents de la route aux mesures de la protection </h4>
+</section>
+
+<section id="chapitre1" class="GIF">
+   <h1> Contexte Generale</h1>
+   <h2> sûrement vous cherchez des chiffres </h2>
+</section>
+
+<!-- INTRO -->
+<section id="intro" class="wrapper style3 align-center">
+  <div class="container">
+    <header>
+	  <h2>On est en guerre ?</h2>
+      <h3>En 2015, on peut dire oui. Mais, moins grave par rapport aux années passées. </h3>
+	</header>
+
+	  <div class="row 200%">
+	    <section class="4u 12u$(small)" style="text-align: center;">
+		  <i class="fa fa-car fa-5x" aria-hidden="true"></i>
+		    <h3>
+                <b><p><strong><p><font size="8" color="red"> 155  </font></p> </strong>accidents corporels par jour</b> 
+            </h3>
+		</section>
+		<section class="4u 12u$(small)" style="text-align: center;">
+	      <i class="fa fa-bar-chart fa-5x" aria-hidden="true"></i>
+		  <h3> <b><p><strong> <p><font size="8" color="red"> -33%  </font></p> </strong> d'accidents en 10 ans  </b> </h3>
+		</section>
+		<section class="4u 12u$(small)" style="text-align: center;">
+		  <i class="fa fa-ambulance fa-5x" aria-hidden="true"></i>
+		  <h3> <b><p><strong> <p><font size="8" color="red"> 210  </font></p> </strong> blessés par jour  </b> </h3>
+		</section>
+      </div>
+    <p>Le goûter idéal se compose d'un aliment céréalier, d'un produit laitier et d'un fruit ou d'un jus de fruit.
+    <br> Pour un enfant ou un adolescent, le goûter doit représenter 10% des apports journaliers. Cependant, dans la grande distribution, les bienfaits de ces produits sont cachés dans les longues listes d'ingrédients. Nous avons donc décrypté pour vous ces étiquettes : comparez aujourd'hui facilement les marques de la grande distribution et les différents produits.</p>
+  </div>
+</section>
+
+<section id="intro1" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+           <h2> dans la semaine  </h2>
+           
+           <iframe width="800" height="450" 
+           src="//embed.chartblocks.com/1.0/?c=58b93c479973d2a10eaf07fa&t=660b0ed89370122" frameBorder="0">
+           </iframe>
+		   
+           <iframe width="533" height="266" 
+           src="//embed.chartblocks.com/1.0/?c=58b986f09973d2071faf07f9&t=caa81577929d777" frameBorder="0">
+           </iframe>
+		              		   
+           <iframe width="800" height="450" 
+           src="//embed.chartblocks.com/1.0/?c=58beaecd9973d244448ed169&t=3a2a6318ebd5bf5" frameBorder="0">
+           </iframe>
+
+           <iframe width="800" height="450" 
+           src="//embed.chartblocks.com/1.0/?c=58bf3aee9973d231648ed169&t=5a8df1fa843626a" frameBorder="0">
+           </iframe>
+
+           <i class="fa fa-child fa-5x" aria-hidden="true"></i> 
+           4,7% des accidents ont lieu à proximité d'une école
+           <img class="imagecenter" src="images/trn.jpg" alt="" />
+           <img class="imagecenter" src="images/second.jpg" alt="" />
+									
+
+           <img class="imagecenter" src="images/Rplot.jpeg" alt="" />
+           <img class="imagecenter" src="images/Rplot01.jpeg" alt="" />
+           
+ 
+									
+
+
+        </header>
+    </div>
+</section>
+
+<section id="intro2" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+           <h2> dans la journée  </h2>
+        </header>
+        <iframe width="800" height="450" 
+           src="//embed.chartblocks.com/1.0/?c=58c884869973d2dd12399d3d&t=bc4974ee80715ab" frameBorder="0">
+        </iframe>
+    </div>
+</section>
+
+<section id="intro3" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+           <h2> Atmosphere</h2>
+        </header>
+    </div>
+</section>
+
+
+<section id="chapitre2" class="GIF">
+   <h1> descriptions </h1>
+</section>
+
+<section id="submenu21" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+           <h2> Nombre d'accidents par département</h2>
+        </header>
+	<iframe id="datawrapper-chart-xgGwd" 
+           src="//datawrapper.dwcdn.net/xgGwd/2/" frameborder="0" allowtransparency="true" 
+           allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" 
+           mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" 
+           msallowfullscreen="msallowfullscreen" width="100%" height="400">
+        </iframe>
+           
+        <script type="text/javascript"> 
+           if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["xgGwd"]={},
+           window.datawrapper["xgGwd"].embedDeltas={"100":400,"200":400,"300":400,"400":400,"500":400,"600":400,
+           "700":400,"800":400,"900":400,"1000":400}
+           ,window.datawrapper["xgGwd"].iframe=document.getElementById("datawrapper-chart-xgGwd"),
+           window.datawrapper["xgGwd"].iframe.style.height=window.datawrapper["xgGwd"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["xgGwd"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("xgGwd"==b)window.datawrapper["xgGwd"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});
+	    </script>
+    </div>
+	
+		              <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
+           <script src="graph.js"></script> 
+           </div>
+</section>
+
+<section id="submenu22" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+           <h2> Nombre d'accidents par véhicule</h2>
+        </header>
+    </div>
+</section>
+
+<section id="submenu23" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+           <h2> Nombre d'accidents par âge</h2>
+        </header>
+    </div>
+	
+	
+     <ul class="nav nav-pills nav-justified"  id = "menu-scatter">
+    <li class="active"><a data-toggle="pill" href="#home">Par âge du conducteur</a></li>
+    <li><a data-toggle="pill" href="#menu1">Par âge des blessés</a></li>
+    <li><a data-toggle="pill" href="#menu2">Par âge des tués</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Par âge du conducteur</h3>
+			<iframe width="800" height="450" src="//embed.chartblocks.com/1.0/?c=58c86c0c9973d2760d399d3d&t=3481719420f2a32" frameBorder="0"></iframe>									
+       						
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Par âge des blessés</h3>
+				<div class="Histo">
+			 <iframe width="800" height="450" src="//embed.chartblocks.com/1.0/?c=58c874749973d2c30f399d3d&t=db34525e10c38f3" frameBorder="0"></iframe>
+			</div>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Par âge des tués</h3>
+				<div class="Histo">
+				  <iframe width="800" height="450" src="//embed.chartblocks.com/1.0/?c=58c8755e9973d2cb0f399d3d&t=2239451afd66cb4" frameBorder="0"></iframe>
+					</div>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+
+	
+</section>
+
+<section id="chapitre3" class="GIF">
+   <h1> Bonnes pratiques</h1>
+   <h2>  Mieux vaut prévenir que guérir </h2>
+</section>
+
+
+<section id="submenu31" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+           <h2> Où s'asseoir ? </h2>
+        </header>
+    </div>
+</section>
+
+<section id="submenu32" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+           <h2> Atmosphere</h2>
+        </header>
+    </div>
+</section>
+
+<section id="submenu33" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+           <h2> Atmosphere</h2>
+        </header>          
+	 </div>
+	<div class="container">
+  
+     <ul class="nav nav-pills nav-justified"  id = "menu-scatter">
+    <li class="active"><a data-toggle="pill" href="#home">La ceinture en voiture</a></li>
+    <li><a data-toggle="pill" href="#menu1">Le casque en moto</a></li>
+    <li><a data-toggle="pill" href="#menu2">Le casque en vélo</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>La ceinture en voiture</h3>
+				<div class="Histo">
+				<iframe  src="voiture.html" class="carte" frameBorder="0" align="center" width="900" height="500" style="margin-bottom:-100px"></iframe>
+				</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Le casque en moto</h3>
+				<div class="Histo">
+				<iframe  src="moto.html" class="carte" frameBorder="0" align="center" width="900" height="500" style="margin-bottom:-100px"></iframe>
+				</div>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Le casque en vélo</h3>
+				<div class="Histo">
+				<iframe  src="velo.html" class="carte" frameBorder="0" align="center" width="900" height="500" style="margin-bottom:-100px"></iframe>
+				</div>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+</div>
+	
+</section>
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <section class="4u 6u$(medium) 12u$(small)">
+                    <h3>
+                        <a href="http://www.ensae.fr/" class="centerimage"><img src="images/ENSAE_logo.jpg" 
+                        width="350px" height="300px" alt="" /></a>
+                    </h3>
+             </section>
+             <section class="4u 6u$(medium) 12u$(small)">
+                    <ul class="tabular">
+                        <h3> QUI SOMMES-NOUS ?</h3>
+                        <h4 style="color:black; text-align: justify;"> Etudiants en dernière année d'école d'ingénieur à 
+                            l'ENSAE ParisTech, Gabriele Ranieri et Ismail Hammounou ont réalisé cette étude.</h4>
+                        <li></li>
+                        <h3><a href="sources.html">SOURCES</a></h3>
+                        <li></li>
+                        <h3><a href=#chapitre1>CONTEXTE GENERALE</a></h3>
+                        <li></li>
+                        <h3><a href=#chapitre2>DESCRIPTION</a></h3>
+                        <li></li>
+                        <h3><a href=#chapitre3>BONNES PRATIQUES</a></h3>
+                    </ul>
+                </section>
+                <section class="4u$ 12u$(medium) 12u$(small)">
+                    <h3>NOUS CONTACTER</h3>
+                    <ul class="tabular">
+                        <li>
+                            <h3>Mail</h3>
+                            <h4><a href="mailto:quifaitlemeilleurgouter@gmail.com">afaire@gmail.com</a></h4>
+				<h4><a href="mailto:gabriele.ranieri@ensae.fr">gabriele.ranieri@ensae.fr</a></h4>
+                        </li>
+                        <li>
+                            <h3>
+                                <a href="https://fr.linkedin.com/in/rapha%C3%ABl-denis-404b28a5" class="icon rounded fa-linkedin"><span class="label">LinkedInRD</span></a>
+                            </h3>
+                            <h4><a href="https://fr.linkedin.com/in/rapha%C3%ABl-denis-404b28a5">Raphaël Denis</a></h4>
+                        </li>
+                        <li>
+                            <h3>
+                                <a href="https://fr.linkedin.com/in/delphine-gras-6ba611a8" class="icon rounded fa-linkedin"><span class="label">LinkedInDG</span></a>
+                            </h3>
+                            <h4><a href="https://fr.linkedin.com/in/delphine-gras-6ba611a8">Delphine Gras</a></h4>
+                        </li>
+                        <li>
+                            <h3>
+                                <a href="https://fr.linkedin.com/in/audrey-ribeiro-7388a7114" class="icon rounded fa-linkedin"><span class="label">LinkedInAR</span></a>
+                            </h3>
+                            <h4><a href="https://fr.linkedin.com/in/audrey-ribeiro-7388a7114">Audrey Ribeiro</a></h4>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <ul class="copyright">
+                <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+                <li>Icons: <a href="http://www.freepik.com">Freepik</a> from <a href="http://www.flaticon.com">FlatIcon</a> </li>
+
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
