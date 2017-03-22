@@ -359,7 +359,8 @@ section {
 	color: ghostwhite;
 	}
 #submenu31 {
-	background-color: grey;
+	background: url("../images/chausee2.jpg");
+		background-size : 100%;
     border: solid darkred;
 	border-bottom: 1px;
 		}
@@ -378,7 +379,8 @@ section {
 }
 
 #submenu32 {
-	background-color: grey;
+	background: url("../images/chausee2.jpg");
+		background-size : 100%;
     border: solid darkred;
 	border-bottom: 1px;
 	}
@@ -397,7 +399,8 @@ section {
 }
 
 #submenu33 {
-	background-color: grey;
+	background: url("../images/chausee2.jpg");
+		background-size : 100%;
 	border: 2px solid darkred;
 	}
 
