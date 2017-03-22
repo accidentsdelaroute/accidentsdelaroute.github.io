@@ -14,10 +14,9 @@
 		background: black;
 	}
 
-
-/* Form */
-
-/* List */
+section {
+	text-align: center;
+}
 
 /* Header */
 
@@ -290,7 +289,7 @@
 	text-align: center;
 	color: darkred;
 	padding: 1cm;
-	margin: 0
+	margin: 0;
 }
 #chapitre2 h2:hover{
 	color: ghostwhite;
@@ -299,6 +298,7 @@
 	background-color: grey;
 	border: solid darkred;
 	border-bottom: 1px;
+	text-align: center;
 	}
 
 #submenu21 header {
@@ -318,6 +318,7 @@
 	background-color: grey;
     border: solid darkred;
 	border-bottom: 1px;
+	text-align: center;
 	}
 
 #submenu22 header {
@@ -337,6 +338,7 @@
 	background-color: grey;
     border: solid darkred;
 	border-bottom: 1px;
+	text-align: center;
 	}
 
 #submenu23 header {
