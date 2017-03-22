@@ -11,8 +11,8 @@
 /* Basic */
 
 	body {
-		background: url(images/chausee2.jpg);
-		background-size : cover;
+		background: url("../images/chausee2.jpg");
+		background-size : 100%;
 	}
 
 section {
@@ -197,14 +197,9 @@ section {
 	padding: 1cm;
 	margin: 0
 }
+
 #chapitre1 h2:hover{
 	color: ghostwhite;
-}
-
-#intro {
-	background-color: grey;
-	border: solid darkred;
-	border-bottom: 1px;
 }
 
 #intro header {
@@ -220,12 +215,6 @@ section {
 	padding: 0 0 0.5cm 0;
 }
 
-#intro1 {
-	background-color: grey;
-    border: solid darkred;
-	border-bottom: 1px;
-	}
-
 #intro1 header {
 	text-align: center;
 	color: darkred;
@@ -233,12 +222,6 @@ section {
 
 #intro1 header h2 {
 	padding: 0.3cm 0 0 0;
-}
-
-#intro2 {
-	background-color: grey;
-	border: solid darkred;
-	border-bottom: 1px;
 }
 
 #intro2 header {
@@ -250,11 +233,6 @@ section {
 	padding: 0.3cm 0 0 0;
 }
 
-#intro3 {
-	background-color: grey;
-    border: solid darkred;
-	border-bottom: 1px;
-	}
 
 #intro3 header {
 	text-align: center;
@@ -296,9 +274,6 @@ section {
 	color: ghostwhite;
 }
 #submenu21 {
-	background-color: grey;
-	border: solid darkred;
-	border-bottom: 1px;
 	text-align: center;
 	}
 
@@ -316,9 +291,6 @@ section {
 }
 
 #submenu22 {
-	background-color: grey;
-    border: solid darkred;
-	border-bottom: 1px;
 	text-align: center;
 	}
 
