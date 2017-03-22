@@ -354,9 +354,9 @@
 
 #chapitre3 {
 	background-color: black;
-	background-image: url(../images/angedelaamort.gif);
+	background-image: url(../images/bonnespratiques.gif);
 	background-position: center;
-	background-size: 20%;
+	background-size: 28%;
 	display: block;
 		}
 #chapitre3 h1 {
@@ -421,8 +421,7 @@
 
 #submenu33 {
 	background-color: grey;
-	border: solid darkred;
-	border-bottom: 1px;
+	border: 2px solid darkred;
 	}
 
 #submenu33 header {
@@ -441,6 +440,11 @@
 
 
 /* Footer */
+
+#conclu {
+	background-color: gray;
+}
+
 
 footer {
 	background: black;
