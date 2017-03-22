@@ -308,7 +308,9 @@ section {
 }
 
 #submenu23 {
-	background-color: grey;
+	background: url("../images/chausee2.jpg");
+		background-size : 100%;
+	
     border: solid darkred;
 	border-bottom: 1px;
 	text-align: center;
