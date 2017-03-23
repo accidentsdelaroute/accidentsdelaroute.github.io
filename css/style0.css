@@ -245,11 +245,11 @@ section {
 
 #chapitre2 {
 	background-color: black;
-	background-image: url(../images/feu2.png);
+	background-image: url(../images/police.gif);
 	background-position: center;
 	background-size: 20%;
 	display: block;
-		}
+}
 
 #chapitre2 h1 {
 	font :lighter normal 75pt 'Redcap';
