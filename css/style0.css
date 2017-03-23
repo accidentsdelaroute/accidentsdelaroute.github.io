@@ -245,9 +245,9 @@ section {
 
 #chapitre2 {
 	background-color: black;
-	background-image: url(../images/police.gif);
+	background-image: url(../images/bonnespratiques.gif);
 	background-position: center;
-	background-size: 30%;
+	background-size: 20%;
 	display: block;
 		 }
 
@@ -331,9 +331,9 @@ section {
 
 #chapitre3 {
 	background-color: black;
-	background-image: url(../images/Big_light.gif);
+	background-image: url(../images/police.gif);
 	background-position: center;
-	background-size: 100%;
+	background-size: 30%;
 	display: block;
 		}
 #chapitre3 h1 {
