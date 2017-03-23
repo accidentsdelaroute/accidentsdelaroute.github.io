@@ -247,8 +247,8 @@ section {
 	background-color: black;
 	background-image: url(../images/police.gif);
 	background-position: center;
-	background-size: 50%;
-	display: inline;
+	background-size: 20%;
+	display: block;
 }
 
 #chapitre2 h1 {
