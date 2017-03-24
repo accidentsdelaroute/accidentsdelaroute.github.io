@@ -17,7 +17,7 @@
 
 section {
 	text-align: center;
-}
+        }
 
 /* Header */
 
@@ -308,11 +308,6 @@ section {
 }
 
 #submenu23 {
-	background: url("../images/chausee2.jpg");
-		background-size : 100%;
-	
-    border: solid darkred;
-	border-bottom: 1px;
 	text-align: center;
 	}
 
@@ -330,10 +325,9 @@ section {
 }
 
 #chapitre3 {
-	background-color: black;
 	background-image: url(../images/police.gif);
 	background-position: center;
-	background-size: 30%;
+	background-size: 25%;
 	display: block;
 		}
 #chapitre3 h1 {
@@ -359,11 +353,8 @@ section {
 	color: ghostwhite;
 	}
 #submenu31 {
-	background: url("../images/chausee2.jpg");
-		background-size : 100%;
-    border: solid darkred;
-	border-bottom: 1px;
-		}
+	text-align : center;
+}
 
 #submenu31 header {
 	text-align: center;
@@ -379,11 +370,8 @@ section {
 }
 
 #submenu32 {
-	background: url("../images/chausee2.jpg");
-		background-size : 100%;
-    border: solid darkred;
-	border-bottom: 1px;
-	}
+	text-align:center;
+}
 
 #submenu32 header {
 	text-align: center;
@@ -399,10 +387,8 @@ section {
 }
 
 #submenu33 {
-	background: url("../images/chausee2.jpg");
-		background-size : 100%;
-	border: 2px solid darkred;
-	}
+        text-align:center;
+}
 
 #submenu33 header {
 	text-align: center;
@@ -425,14 +411,15 @@ section {
 	background-color: grey;
 }
 
-
 footer {
 	background: black;
 	padding: 6em 0em 4em;
 	}
+
 footer.container{
 	background: black;
 }
+
 #footer h2, #footer h3, #footer h4 {
 	color: darkred;
 	}
