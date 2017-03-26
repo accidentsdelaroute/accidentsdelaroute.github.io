@@ -208,10 +208,6 @@
         <header>
            <h2> Nombre d'accidents par département</h2>
         </header>
-	      <!--  Nouveau titre: Les départements urbains sont les plus accidentés  -->
-	    <!-- ajouter le code: <iframe id="datawrapper-chart-xgGwd" src="//datawrapper.dwcdn.net/xgGwd/3/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["xgGwd"]={},window.datawrapper["xgGwd"].embedDeltas={"100":484,"200":456,"300":400,"400":400,"500":372,"600":372,"700":372,"800":372,"900":372,"1000":372},window.datawrapper["xgGwd"].iframe=document.getElementById("datawrapper-chart-xgGwd"),window.datawrapper["xgGwd"].iframe.style.height=window.datawrapper["xgGwd"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["xgGwd"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("xgGwd"==b)window.datawrapper["xgGwd"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script> -->
-
-
 	    <iframe id="datawrapper-chart-xgGwd" 
            src="//datawrapper.dwcdn.net/xgGwd/2/" frameborder="0" allowtransparency="true" 
            allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" 
@@ -231,10 +227,6 @@
     <div id="container">
     <script src="graph.js"></script> 
     </div>
-	<!-- commentantaire: Les accidents corporels sont plus fréquents dans les départements des grandes villes, avec en tête Paris, qui en compte 
-plus de 6000. A l'autre bout, la Creuse avec seulement 51 accidents.  <br>
-Bonne nouvelle: La tendance est en baisse dans 7 des 10 départements les plus accidentés. -->
-
 </section>
 
 
@@ -252,10 +244,6 @@ Bonne nouvelle: La tendance est en baisse dans 7 des 10 départements les plus a
 
 	<section style="display: block;">
 	 <img width="750" height="450" class="imagecenter" src="images/trn.jpg" alt="" />
-		<!-- Commentaire: 97% des accidents corporels concernent trois véhicules: voiture, moto et vélo. Les poids lours, les cars 
-et les autres moyens de transport ne représente finalement que 3% des accidents. De quoi préférer les transports en commun... -->
-
-
 	</section>
 </section>
 
@@ -267,9 +255,9 @@ et les autres moyens de transport ne représente finalement que 3% des accidents
     </div>
 
     <ul class="nav nav-pills nav-justified"  id = "menu-scatter">
-       <li class="active"><a data-toggle="pill" href="#frame1">Par âge du conducteur </a></li>
-       <li><a data-toggle="pill" href="#frame2">Par âge des blessés</a></li>
-       <li><a data-toggle="pill" href="#frame3">Par âge des tués</a></li>
+       <li class="active"><a data-toggle="pill" href="#frame1" style="color: ghostwhite;">Par âge du conducteur </a></li>
+       <li><a data-toggle="pill" href="#frame2" style="color: ghostwhite;">Par âge des blessés</a></li>
+       <li><a data-toggle="pill" href="#frame3" style="color: ghostwhite;">Par âge des tués</a></li>
     </ul>
   
    <div class="tab-content">
@@ -281,29 +269,26 @@ et les autres moyens de transport ne représente finalement que 3% des accidents
            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
        </p>
     </div>
+
     <div id="#frame2" class="tab-pane fade">
-       <h3 style="color: white; font-size: 24px;">Par âge des blessés</h3>
-	   <div class="Histo">
-		    <iframe width="750" height="450" src="//embed.chartblocks.com/1.0/?c=58c874749973d2c30f399d3d&t=db34525e10c38f3" frameBorder="0"></iframe>
-	   </div>
+       <h3 style="color: white; font-size: 24px;"> Par âge des blessés</h3>
+		<iframe width="750" height="450" src="//embed.chartblocks.com/1.0/?c=58c874749973d2c30f399d3d&t=db34525e10c38f3" frameBorder="0">
+        </iframe>
        <p style="color: white; font-size: 18px;">
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
        </p>
 	</div>
+
     <div id="#frame3" class="tab-pane fade">
        <h3 style="color: white; font-size: 24px;">Par âge des tués</h3>
-	   <div class="Histo">
-	        <iframe width="750" height="450" src="//embed.chartblocks.com/1.0/?c=58c8755e9973d2cb0f399d3d&t=2239451afd66cb4" frameBorder="0"></iframe>
-	   </div>
+	   <iframe width="750" height="450" src="//embed.chartblocks.com/1.0/?c=58c8755e9973d2cb0f399d3d&t=2239451afd66cb4" frameBorder="0">
+       </iframe>
        <p style="color: white; font-size: 18px;">
            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
        </p>
 	</div>
    </div>
-  <!-- Commentaires après les graphiques: A partir de 14 ans, lorsqu'ils peuvent conduir des motos, les jeunes sont explosés
-à un risque croissant d'accident, jusqu'à leur 23 ans.  <Br> 
-Cette tendance se retrouve pour le nombre de blessés et de tués. -->
-
+  
   <section style="text-align: center;">
       <header id="hommes" style="color: white;">
           <h2> ... et d'hommes</h2>
@@ -311,10 +296,6 @@ Cette tendance se retrouve pour le nombre de blessés et de tués. -->
 	  <img src="images/podium_3.jpg" alt="" style="width:304px;height:228px;"> 
 	  <h3 style="font :lighter normal 55pt; color:white;"> des conducteurs sont des hommes</h3>
   </section> 
-	<!-- Commentaire: Contrairement aux idées reçues, les hommes sont les plus souvent au volant lors d'un accident. De même,
-ils sont majoritaires parmi les victimes: 76% des tués sont des hommes ainsi que 66% des blessés.-->
-
-
 </section>		   
 					
 				  			   
@@ -336,37 +317,36 @@ ils sont majoritaires parmi les victimes: 76% des tués sont des hommes ainsi qu
           <li><a data-toggle="pill" href="#moto">Le casque en moto</a></li>
           <li><a data-toggle="pill" href="#velo">Le casque en vélo</a></li>
        </ul>
-	</div> 
+	
        <div class="tab-content">
          <div id="voiture" class="tab-pane fade in active">
-           <h3>La ceinture en voiture</h3>
+           <h3 style="color: ghostwhite; font-size: 20pt;">La ceinture en voiture</h3>
 	       <iframe width="750" height="450" src="voiture.html" frameBorder="0"></iframe>									
-           <p>
+           <p style="color: ghostwhite; font-size: 16pt;">
              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
            </p>
          </div>
          
          <div id="moto" class="tab-pane fade">
-            <h3>Le casque en moto</h3>
+            <h3 style="color: ghostwhite; font-size: 20pt;"> Le casque en moto</h3>
 			<div class="Histo">
 			   <iframe width="750" height="450" src="moto.html" frameBorder="0"></iframe>
 		    </div>
-            <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p style="color: ghostwhite; font-size: 16pt;"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 	     </div> 
          
          <div id="velo" class="tab-pane fade">
+            <h3 style="color: ghostwhite; font-size: 20pt;">Le casque en vélo</h3>
 			<div class="Histo">
 			    <iframe width="750" height="450" src="velo.html" frameBorder="0"></iframe>
 			</div>
-            <h3>Le casque en vélo</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <p style="color: ghostwhite; font-size: 16pt;">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+            </p>
          </div>
        </div>	
+    </div>  
 </section>
-	 <!-- Commentaire: Avec la maîtrise de la vitesse et la limitation de la consommation d'alcool ,
-le bon reflexe est l'utilisation des équipements de sécurité: ceinture ou casque. <Br> Leur efficacité est prouvée. -->
-
-
 	  
 
 <section id="submenu32">
@@ -377,9 +357,6 @@ le bon reflexe est l'utilisation des équipements de sécurité: ceinture ou cas
     </div>  
     <img class="imagecenter" src="images/second.jpg" alt="" />	    
 </section>
-<!-- Commentaires: La probabilité d'être blessé lors d'un accident corporel dépend de l'utilisation d'un équipement de sécurité, 
-mais aussi de la place qu'on occupe dans le véhicule. A savoir, en voiture, les places derrière sont, en moyenne, plus dangereuses que 
-celle devant. En tant qu'accompagnateur, privilégiez donc la place à coté du conducteur. -->
 
 
 <!-- Footer -->
@@ -388,16 +365,16 @@ celle devant. En tant qu'accompagnateur, privilégiez donc la place à coté du 
     <div class="container">
         <div class="row">
             <section class="4u 6u$(medium) 12u$(small)">
-                    <h3>
-                        <a href="http://www.ensae.fr/" class="centerimage"><img src="images/ENSAE_logo.jpg" 
-                        width="350px" height="300px" alt="" />
+                    <h3 id="logo">
+                        <a href="http://www.ensae.fr/" class="centerimage" style="float: left; display: block;">
+                        <img src="images/logoensae.jpg" width="370px" height="400px" alt="" />
                         </a>
                     </h3>
              </section>
              <section class="4u 6u$(medium) 12u$(small)">
                     <ul class="tabular">
-                        <h3> QUI SOMMES-NOUS ?</h3>
-                        <h4 style="color:black; text-align: justify;"> Etudiants en dernière année d'école d'ingénieur à 
+                        <h3> Qui sommes-nous ?</h3>
+                        <h4 style="text-align: justify; font-size: 14pt;"> Etudiants en dernière année d'école d'ingénieur à 
                             l'ENSAE ParisTech, Gabriele Ranieri et Ismail Hammounou ont réalisé cette étude.</h4>
                         <li></li>
                         <h3><a href="https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/">SOURCES</a></h3>
@@ -410,18 +387,18 @@ celle devant. En tant qu'accompagnateur, privilégiez donc la place à coté du 
                     </ul>
              </section>
              <section class="4u$ 12u$(medium) 12u$(small)">
-                    <h3>NOUS CONTACTER</h3>
+                    <h3>Contactez-nous</h3>
                     <ul class="tabular">
                         <li>
-                            <h3>Mail</h3>
-                            <h4><a href="mailto:ismail.hammounou@ensae.fr">ismail.hammounou@ensae.fr</a></h4>
-				            <h4><a href="mailto:gabriele.ranieri@ensae.fr">gabriele.ranieri@ensae.fr</a></h4>
+                            <h3></h3>
+                            <h4 style="text-align: left; font-size: 16pt;"><a href="mailto:ismail.hammounou@ensae.fr">ismail.hammounou@ensae.fr</a></h4>
+				            <h4 style="text-align: left; font-size: 16pt;"><a href="mailto:gabriele.ranieri@ensae.fr">gabriele.ranieri@ensae.fr</a></h4>
                         </li>
                         <li>
-                            <h3>
-                                <a href="https://fr.linkedin.com/in/ismail-hammounou-98372891",  class="fa fa-linkedin-square" aria-hidden="true"><span class="label">LinkedIn</span></a>
+                            <h3 style="text-align: left;">
+                                <a href="https://fr.linkedin.com",  class="fa fa-linkedin-square" aria-hidden="true"><span class="label" style="color: red;">LinkedIn</span></a>
                             </h3>
-                            <h4><a href="https://fr.linkedin.com/in/ismail-hammounou-98372891">Ismail Hammounou</a></h4>
+                            <h4 style="text-align: left; font-size: 16pt;"><a href="https://fr.linkedin.com/in/ismail-hammounou-98372891">Ismail Hammounou</a></h4>
                         </li>
                      
                     </ul>
@@ -429,10 +406,11 @@ celle devant. En tant qu'accompagnateur, privilégiez donc la place à coté du 
         </div>
         
         <ul class="copyright">
-            <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-            <li>Icons: <a href="http://www.freepik.com">Freepik</a> from <a href="http://www.flaticon.com">FlatIcon</a> </li>
+            <li style="color: red;">Design: <a href="http://templated.co">TEMPLATED</a></li>
+            <li style="color: red;">Icons: <a href="http://www.freepik.com">Freepik</a> from <a href="http://www.flaticon.com">FlatIcon</a> </li>
+            <li style="color: red;">GIF:   <a href="https://giphy.com/">Giphy</a></li>
         </ul>
-    </div>
+    </div>  
   </footer>
 </section>
 </body>
