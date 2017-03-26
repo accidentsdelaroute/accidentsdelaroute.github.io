@@ -49,7 +49,7 @@ section {
 			top: 0;
 		}
 
-			#header h1 a {	font: 30pt 'Redcap'; color: ghostwhite;	}
+			#header h1 a {	font: 30pt ; color: ghostwhite;	}
 			
 		#header nav {
 			height: inherit;
@@ -74,7 +74,7 @@ section {
 				}
 
 					#header nav > ul > li a {
-						font: 20pt 'Redcap';
+						font: 20pt ;
 						-moz-transition: color 0.2s ease-in-out;
 						-webkit-transition: color 0.2s ease-in-out;
 						-o-transition: color 0.2s ease-in-out;
@@ -128,9 +128,9 @@ section {
 	}
 
 		#banner h2 {
-			color:darkred;
+			color:red;
 		  /*  transition:color 4.5s ease-in; */
- 			font :lighter normal 75pt 'Redcap';
+ 			font-size: 75pt ;
 			line-height: 1em;
 			margin: 0 0 0em 0;
 			padding: 0;
@@ -138,18 +138,18 @@ section {
 		
 		
 		#banner h3 {
-			color:darkred;
+			color:red;
 		  /*transition:color 4.5s ease-in; */
-			font : lighter normal 35pt 'Redcap';
+			font : lighter normal 35pt ;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
  		}
 
 		#banner h4 {
-			font: normal 30pt 'Redcap';
+			font: normal 30pt ;
 			font-size: 30pt;
-			color: darkred;
+			color: red;
 			margin: 1.5em 0 0 0;
 		}
 
@@ -179,9 +179,9 @@ section {
 	}
 
 #chapitre1 h1 {
-	font :lighter normal 75pt 'Redcap';
+	font-size: 65pt;
 	text-align: center;
-	color: darkred;
+	color: red;
 	padding: 1cm;
 	margin: 0;
 }
@@ -191,9 +191,9 @@ section {
 }
 
 #chapitre1 h2 {
-	font :lighter normal 30pt 'Redcap';
+	font-size : 40pt ;
 	text-align: center;
-	color: darkred;
+	color: red;
 	padding: 1cm;
 	margin: 0
 }
@@ -204,7 +204,7 @@ section {
 
 #intro header {
 	text-align: center;
-	color: darkred;
+	color: white;
 }
 
 #intro header h2 {
@@ -213,6 +213,8 @@ section {
 
 #intro header h3 {
 	padding: 0 0 0.5cm 0;
+	font-size: 35pt;
+
 }
 
 #intro1 header {
@@ -252,26 +254,26 @@ section {
 		 }
 
 #chapitre2 h1 {
-	font :lighter normal 75pt 'Redcap';
+	font-size: 65pt;
 	text-align: center;
-	color: darkred;
-	padding: 2.5cm;
+	color: yellow;
+	padding: 0.5cm;
 	margin: 0;
 }
 
 #chapitre2 h1:hover{
-	color: ghostwhite;
+	color: red;
 }
 
 #chapitre2 h2 {
-	font :lighter normal 30pt 'Redcap';
+	font-size : 40pt ;
 	text-align: center;
-	color: darkred;
+	color: yellow;
 	padding: 1cm;
 	margin: 0;
 }
 #chapitre2 h2:hover{
-	color: ghostwhite;
+	color: red;
 }
 #submenu21 {
 	text-align: center;
@@ -324,33 +326,37 @@ section {
 	padding: 0 0 0.5cm 0;
 }
 
+#submenu23 ul {
+	padding: 1cm;
+}
+
 #chapitre3 {
 	background-image: url(../images/police.gif);
 	background-position: center;
-	background-size: 25%;
+	background-size: 29.3%;
 	display: block;
 		}
 #chapitre3 h1 {
-	font :lighter normal 75pt 'Redcap';
+	font-size: 65pt ;
 	text-align: center;
-	color: darkred;
+	color: yellow;
 	padding: 1cm;
 	margin: 0;
     }
 
 #chapitre3 h1:hover{
-	color: ghostwhite;
+	color: red;
 }
 
 #chapitre3 h2 {
-	font :lighter normal 30pt 'Redcap';
+	font-size: 40pt ;
 	text-align: center;
-	color: darkred;
+	color: yellow;
 	padding: 1cm;
 	margin: 0
 }
 #chapitre3 h2:hover{
-	color: ghostwhite;
+	color: red;
 	}
 #submenu31 {
 	text-align : center;
@@ -406,7 +412,9 @@ section {
 
 
 /* Wrapper */
-
+    #submenu31 a:hover {	 
+		color: yellow;
+	}
   
 /* Footer */
 
