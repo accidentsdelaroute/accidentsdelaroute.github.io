@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Décrypter les accidents de la route en France</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Accidents de la Route en france de l'histoire aux mesures de la protection" />
+    <meta name="keywords" content="Accidents de la route,accidents,route,voiture,
+        France,Français, distribution,enfants, piétons, moto, vélo, sécurité, gravité, casque" />
+    <link rel="icon" type="image/png" href="images/commerce.png" />
+
+
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/skel.css" />
+    <link rel="stylesheet" href="css/style0.css" />
+    <link rel="stylesheet" href="css/style-xlarge.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.css">
+    <link rel="stylesheet" href="css/eUGsj.all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="js/json2.min.js"></script>
+            <script type="text/javascript">
+            window.__ltie9 = true;
+            </script>
+        <![endif]-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/json2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
+    <script src="js/bar-chart-1a3f0242ee9d13cef39ccd24a306b422.min.js"></script>
+    <script src="js/chart-753c771b6f0ebc215cab76b0fca5e03aab20b743.min.js"></script>
+    <script src="js/default-5baee189e1a2f0bf680f4910cc958098.min.js"></script>
+    <script src="https://use.fontawesome.com/07d832c20d.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
+    <script src="js/bar-chart-1a3f0242ee9d13cef39ccd24a306b422.min.js"></script>
+    <script src="js/chart-753c771b6f0ebc215cab76b0fca5e03aab20b743.min.js"></script>
+    <script src="js/default-5baee189e1a2f0bf680f4910cc958098.min.js" ></script>
+    <script src="https://use.fontawesome.com/07d832c20d.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-93008974-1', 'auto');
+        ga('send', 'pageview');
+    
+    </script>
+    <audio src="Klaxoncamion.mp3" type="audio/mpeg" autoplay> </audio>
+     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+</head>
+
+<body class="landing">
+    <!-- Header -->
+            <nav class="menu">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#chapitre1">Contexte General</a>
+                    <ul class="submenu">
+                        <li><a href="#intro">Quelques chiffres</a></li>
+                        <li><a href="#intro1">Dans la semaine</a></li>
+                        <li><a href="#intro2">Dans la journée</a></li>
+                        <li><a href="#intro3">Météo</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#chapitre2">Description</a>
+                    <ul class="submenu">
+                        <li><a href="#submenu21">Par département</a></li>
+                        <li><a href="#submenu22">Par Véhicule</a></li>
+                        <li><a href="#submenu23">Par Age et Sexe</a></li>
+                    </ul>
+                </li>
+                <li><a href="#chapitre3">Bonnes Pratiques</a>
+                    <ul class="submenu">
+                        <li><a href="#submenu31">Se protéger </a></li>
+                        <li><a href="#submenu32">Où s'assoir </a></li>
+                    </ul>  
+                </li>
+               <li> <a href="#footer">Contactez-nous</a></li> 
+      </nav>
+
+<!-- Banner -->
+<section id="banner">
+    <h2> <font size="8"> Accidents de la route en France </font></h2>
+    <h4> <font size="8"> De la description des accidents de la route aux mesures de sécurité  </font></h4>
+</section>
+
+
+
+<section id="chapitre1" class="GIF">
+   <h1> <font size="7"  color="E4B335">  Contexte Général  </font></h1>
+   <h2> <font size="7"  color="E4B335">  Combien d'accidents pour combien de victimes ?  </font></h2>
+</section>
+
+<!-- INTRO -->
+<section id="intro">
+  <div class="container">
+    <header>
+      <strong>  <h3 style="margin: 0px 50px 0px 50px;"> <font size="5" color="E4B335"> <u> On est en guerre?  Oui, même si c'est mieux que les années passées. </u> </h3> </font></strong>
+    </header>
+
+    <div class="row 100%">
+	    <section  style="text-align: center; margin: 0px 0px 0px 170px;">
+		  <i style="color:red;" class="fa fa-car fa-5x" aria-hidden="true"></i>
+		   <h3> <b><p><strong> <p><font size="5" color="red"> 155  </font></p> </strong>  <p><font size="5" color="white">  accidents corporels <br/> par jour  </font></p>  </b> </h3>
+	    </section>
+	    <section  style="text-align: center; ">
+		  <i style="color: red;" class="fa fa-ambulance fa-5x" aria-hidden="true"></i>
+		  <h3> <b><p><strong> <p><font size="5" color="red"> 210  </font></p> </strong>  <p><font size="5" color="white">  blessés par jour  </font></p>  </b> </h3>
+	    </section>
+            <section style="text-align: center; ">
+	      <i style="color: red;" class="fa fa-bar-chart fa-5x" aria-hidden="true"></i>
+		  <h3> <b><p><strong> <p><font size="5" color="red"> -33%  </font></p> </strong>  <p><font size="5" color="white"> d'accidents en 10 ans </font></p>  </b> </h3>
+	    </section>
+    </div>
+    <strong><h3 style="text-align: justify;margin: 0px 180px 0px 180px; "><font size="4" color="white">  
+        Un accident corporel est un accident ayant entraîné des dommages sur des personnes. En moyenne, en 2015,
+	on en comptait 155 par jour. Ce qui entraînait 210 personnes blessées et 10 tuées. 
+        C'est beaucoup, mais c'est en baisse constante depuis les années '80. 
+    </font></h3></strong> 
+  </div>
+</section>
+    <br />
+    <br />
+    <br />
+    <br />
+   <section id="intro1" style="text-align: center;  margin: 0px 300px 0px 300px;">
+        <strong><h3><font size="5"; color="E4B335">
+             <u> Un pic d'accidents le vendredi, suivi d'un creux le week-end</u>
+        </font></h3> </strong>  
+	
+        <iframe width="750" height="450" 
+            src="//embed.chartblocks.com/1.0/?c=58b986f09973d2071faf07f9&t=caa81577929d777" frameBorder="0">
+        </iframe>
+      	<strong><h3  style="text-align: justify;"><font size="4" color="white"> 
+        La fréquence d'accidents varie fortement entre le début de la semaine et le week-end.
+	En effet, le vendredi, on recense, en moyenne, 189 accidents, c'est 20% de plus que le 
+	reste de la semaine. Au contraire, le week-end, le trafic moins intense,
+        s'accompagne d'une baisse des accidents.
+        </font></h3></strong>  
+   </section>
+    <br />
+    <br />
+    <br />
+    <br />
+
+	<section id="intro2">
+        <strong><h3><font size="5" color="E4B335"> 
+            <u>Des accidents en allant et en rentrant du boulot</u>. 
+        </font>  </h3>  </strong> 
+	 
+		<iframe width="750" height="450" 
+            src="//embed.chartblocks.com/1.0/?c=58c884869973d2dd12399d3d&t=bc4974ee80715a" frameBorder="0">
+        </iframe>
+	<strong><h3 style="text-align: justify;margin: 0px 300px 0px 300px;"><font size="4" color="white"> 
+	    Attention à vos déplacements le matin entre 8h et 9h et surtout le soir entre 17h et 19h! 
+            Ils correspondent aux deux périodes les plus dangereuses, et pour cause, plus d'un accident 
+            sur 4 se produit sur le trajet entre domicile et travail et un accident sur 20 à proximité d'une école.
+	</font></h3></strong>
+	</section>
+    <br />
+    <br />
+    <br />
+    <br />
+	<section id="intro3">
+        <strong><h3><font size="5" color="E4B335">
+            <u>Les conditions météo sont rarement à l'origine des accidents </u>.  
+        </font>  </h3>  </strong> 
+	    <iframe width="750" height="450" 
+           src="//embed.chartblocks.com/1.0/?c=58bf3aee9973d231648ed169&t=5a8df1fa843626a" frameBorder="0">
+        </iframe>
+      	<strong>  <h3 style="text-align: justify;margin: 0px 300px 0px 300px;">   <font size="4" color="white"> 		 
+           Contrairement à ce qu'on pourrait croire, la météo ne peut être mise en cause que dans une minorité 
+	   de cas: 83% des accidents corporels se produisent dans des conditions météréologiques normales
+           et seulement 2% pendant des tempêtes. Les véritables causes sont plutôt à rechercher dans les 
+	   comportements humains ou les anomalies techniques: distraction, excès de vitesse, alcool, pannes
+	   mécaniques, etc ...
+        </font> </h3></strong>
+	</section>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section id="chapitre2" class="GIF">
+        <h1><font size="7" color="E4B335">   Description </font></h1>
+        <h2><font size="7" color="E4B335">   Où ? Quoi ? Qui ? </font></h2>
+    </section>
+
+    
+
+<section id="submenu21">
+    <div class="container">
+        <header>	
+          <strong> <h2> <font size='5' color='E4B335'><u>
+              Les départements urbains sont les plus accidentés
+          </u> </font> </h2> </strong>
+        </header>
+        <iframe src="//datawrapper.dwcdn.net/xgGwd/4/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" 
+	webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" 
+	oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="750" height="550">
+	</iframe>
+        
+	<script type="text/javascript"> 
+           if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["xgGwd"]={},
+           window.datawrapper["xgGwd"].embedDeltas={"100":400,"200":400,"300":400,"400":400,"500":400,"600":400,
+           "700":400,"800":400,"900":400,"1000":400}
+           ,window.datawrapper["xgGwd"].iframe=document.getElementById("datawrapper-chart-xgGwd"),
+           window.datawrapper["xgGwd"].iframe.style.height=window.datawrapper["xgGwd"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["xgGwd"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("xgGwd"==b)window.datawrapper["xgGwd"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});
+	 </script>
+	    
+         <div id="container" style="width: 100%; display: block;" >
+           <script src="graph.js"></script> 
+         </div>
+    </div>
+    <br />
+    <br />
+       <strong>  <h3 style="text-align: justify; margin: 0px 300px 0px 300px;">   <font size="4" color="white"> 
+    Les accidents corporels sont plus fréquents dans les départements des grandes villes, avec en tête Paris, qui en compte 
+    plus de 6000. A l'autre bout, la Creuse avec seulement 51 accidents.
+    <br> Bonne nouvelle: La tendance est en baisse dans 7 des 10 départements les plus accidentés.
+    </font> </h3></strong>
+</section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+<section id="submenu22">
+    <div class="container">
+        <header>
+            <strong> <h2> <font size='5' color='E4B335'><u>
+             Deux accidents sur trois impliquent une voiture
+            </u> </font> </h2> </strong>
+        </header>
+    </div>
+	<section style="display: block;">
+	 <img width="750" height="450" class="imagecenter" src="images/trn.jpg" alt="" />
+	</section>
+    <strong>  <h3 style="text-align: justify; margin: 0px 300px 0px 300px;">   <font size="4" color="white"> 
+    <br />                                                                            
+    97% des accidents corporels concernent trois véhicules: voiture, moto et vélo. Les poids lours, les cars 
+    et les autres moyens de transport ne représentent finalement que 3% des accidents. De quoi préférer 
+    les transports en commun...
+    </font> </h3></strong>
+</section>
+    <br />
+    <br />
+    <br />
+    <br />
+
+<section id="submenu23" class="wrapper style3 align-center">
+    <div class="container">
+        <header>
+            <strong> <h2> <font size='5' color='E4B335'><u>
+                Une majorité de jeunes concernés...
+            </u> </font> </h2> </strong>
+        </header>
+    </div>
+
+    <ul class="nav nav-pills nav-justified"  id = "menu-scatter">
+       <li class="active"><a data-toggle="pill" href="#frame1" style="color: ghostwhite;">  <font size="4"> Nombre d'accidents par âge du conducteur </font> </a></li>
+       <li><a data-toggle="pill" href="#frame2" style="color: ghostwhite;"><font size="4">Nombre de blessés par âge </font></a></li>
+       <li><a data-toggle="pill" href="#frame3" style="color: ghostwhite;"><font size="4">Nombre de tués par âge </font></a></li>
+    </ul>
+  
+   <div class="tab-content">
+    <div id="frame1" class="tab-pane fade in active">
+	   <iframe width="750" height="450" src="//embed.chartblocks.com/1.0/?c=58c86c0c9973d2760d399d3d&t=3481719420f2a32" frameBorder="0">
+       </iframe>									
+    </div>
+
+    <div id="frame2" class="tab-pane fade">
+		<iframe width="750" height="450" src="//embed.chartblocks.com/1.0/?c=58c874749973d2c30f399d3d&t=db34525e10c38f3" frameBorder="0">
+        </iframe>
+	</div>
+
+    <div id="frame3" class="tab-pane fade">
+	   <iframe width="750" height="450" src="//embed.chartblocks.com/1.0/?c=58c8755e9973d2cb0f399d3d&t=2239451afd66cb4" frameBorder="0">
+       </iframe>
+	</div>
+   </div>
+   <strong>  <h3 style="text-align: justify; margin: 0px 300px 0px 300px;">   <font size="4" color="white"> 	  
+    A partir de 14 ans, lorsqu'ils peuvent conduir des motos, les jeunes sont explosés à un risque croissant
+       d'accident, jusqu'à leurs 23 ans. <br> Cette tendance se confirme pour le nombre de blessés et de tués.
+   </font> </h3></strong>
+</section>		   
+
+<section style="text-align: center;">
+      <header id="hommes" style="color: white;">
+            <strong> <h2> <font size='5' color='E4B335'><u>
+                ...et d'hommes
+            </u> </font> </h2> </strong>
+      </header>
+      <img src="images/podium_3.jpg" alt="" style="width:350px; height:350px;"> 
+    <h3> <b><p><strong> <p><font size="5" color="red"> 75%  </font></p> </strong>  <p><font size="5" color="white">  des conducteurs sont des hommes </font></p>  </b> </h3>
+         <h3   style="text-align: justify; margin: 0px 300px 0px 300px;"> <font size="4" color="white"> 
+      Contrairement aux idées reçues, les hommes sont les plus souvent au volant lors d'un accident. De même,
+      ils sont majoritaires parmi les victimes: 76% des tués sont des hommes ainsi que 66% des blessés.
+      </font></>
+</section> 
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+  
+				  			   
+<section id="chapitre3" class="GIF">
+    <h1> <font size="7" color="E4B335">  Bonnes Pratiques  </font></h1>
+    <h2> <font size="7" color="E4B335">  Mieux vaut prévenir que guérir  </font></h2>
+</section>
+
+<section id="submenu31" class="wrapper style3 align-center">
+    <div class="container" style="padding: 0.5cm">
+        <header>
+            <strong> <h2> <font size='5' color='E4B335'><u>
+               L'efficacite prouvée des équipements de sécurité
+            </u> </font> </h2> </strong>
+        </header>          
+	</div>
+
+    <ul class="nav nav-pills nav-justified"  id = "menu-scatter" style="padding: 0.5cm;">
+      <li class="active"><a data-toggle="pill" href="#voiture"  style="color: ghostwhite;"> <font size="4"> La ceinture en voiture</font></a></li>
+      <li><a data-toggle="pill" href="#moto"  style="color: ghostwhite;"> <font size="4"> Le casque en moto </font></a></li>
+      <li><a data-toggle="pill" href="#velo"  style="color: ghostwhite;"> <font size="4"> Le casque en vélo</font></a></li>
+    </ul>
+	
+	
+    <div class="tab-content">
+         <div id="voiture" class="tab-pane fade in active">
+	       <iframe width="750" height="450" src="voiture.html" frameBorder="0"></iframe>									
+         </div>
+
+         <div id="moto" class="tab-pane fade">
+   		    <div class="Histo">
+			   <iframe width="750" height="450" src="moto.html" frameBorder="0"></iframe>
+		    </div>       
+	     </div> 
+         
+         <div id="velo" class="tab-pane fade">
+        	<div class="Histo">
+			    <iframe width="750" height="450" src="velo.html" frameBorder="0"></iframe>
+			</div>
+         </div>
+    </div>
+    <strong>  <h3 style="text-align: justify; margin: 0px 300px 0px 300px;">   <font size="4" color="white"> 	    
+    Avec la maîtrise de la vitesse et la limitation de la consommation d'alcool ,
+    le bon réflexe, c'est l'utilisation des équipements de sécurité: ceinture ou casque. 
+    <br> Ils permettent de réduire le nombre de tués jusqu'à 95%.
+    </font> </h3></strong>
+	 
+</section>
+	  
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+<section id="submenu32">
+    <div class="container">
+        <header>
+           <strong> <h2> <font size='5' color='E4B335'><u>
+               Où s'asseoir ?
+           </u> </font> </h2> </strong>
+        </header>
+    </div>  
+    <img class="imagecenter" src="images/place1.jpg" alt="" style="width: 750px; height:425px;"/>	    
+    <strong>  <h3 style="text-align: justify;margin: 0px 300px 0px 300px;">   <font size="4" color="white"> 	     
+    La probabilité d'être blessé lors d'un accident corporel dépend de l'utilisation d'un équipement de sécurité, 
+    mais aussi de la place qu'on occupe dans le véhicule. A savoir, en voiture, les places derrière sont, en moyenne, plus dangereuses que 
+    celles de devant. En tant qu'accompagnateur, privilégiez donc la place à coté du conducteur.
+    </font> </h3></strong>
+	
+</section>
+    <br />
+    <br />
+    <br />
+    <br />
+
+<!-- Footer -->
+<section id="conclu">
+  <footer id="footer">
+    <div class="container">
+        <div class="row">
+            <section class="4u 6u$(medium) 12u$(small)">
+                    <h3 id="logo">
+                        <a href="http://www.ensae.fr/" class="centerimage" style="float: left; display: block;">
+                        <img src="images/logoensae.jpg" width="350px" height="200px" alt="" />
+                        </a>
+                    </h3>
+             </section>
+             <section class="4u 6u$(medium) 12u$(small)">
+                    <ul class="tabular">
+                        <h3> Qui sommes-nous ?</h3>
+                        <h4 style="text-align: justify; font-size: 8pt;"> Etudiants en dernière année d'école d'ingénieur à 
+                            l'ENSAE ParisTech, Gabriele Ranieri et Ismail Hammounou ont réalisé cette étude.</h4>
+                        <li></li>
+                        <h3 style="text-align: justify; font-size: 10pt;"><a href="https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/">SOURCES</a></h3>
+                        <li></li>
+                        <h3 style="text-align: justify; font-size: 10pt;"><a href=#chapitre1>CONTEXTE GENERALE</a></h3>
+                        <li></li>
+                        <h3 style="text-align: justify; font-size: 10pt;"><a href=#chapitre2>DESCRIPTION</a></h3>
+                        <li></li>
+                        <h3 style="text-align: justify; font-size: 10pt;"><a href=#chapitre3>BONNES PRATIQUES</a></h3>
+                    </ul>
+             </section>
+             <section class="4u$ 12u$(medium) 12u$(small)">
+                    <h3>Contactez-nous</h3>
+                    <ul class="tabular">
+                        <li>
+                            <h3></h3>
+                            <h4 style="text-align: left; font-size: 8pt;"><a href="mailto:ismail.hammounou@ensae.fr">ismail.hammounou@ensae.fr</a></h4>
+				            <h4 style="text-align: left; font-size: 8pt;"><a href="mailto:gabriele.ranieri@ensae.fr">gabriele.ranieri@ensae.fr</a></h4>
+                        </li>
+                        <li>
+                            <h3 style="text-align: left;">
+                                <a href="https://fr.linkedin.com",  class="fa fa-linkedin-square" aria-hidden="true"><span class="label" style="color: red;">LinkedIn</span></a>
+                            </h3>
+                            <h4 style="text-align: left; font-size: 8pt;"><a href="https://fr.linkedin.com/in/ismail-hammounou-98372891">Ismail Hammounou</a></h4>
+                        </li>
+                     
+                    </ul>
+             </section>
+        </div>
+        
+        <ul class="copyright">
+            <li style="color: red;">Design: <a href="http://templated.co">TEMPLATED</a></li>
+            <li style="color: red;">Icons:  <a href="http://fontawesome.io">Fontawesome</a> </li>
+            <li style="color: red;">GIF:    <a href="https://giphy.com/">Giphy</a></li>
+        </ul>
+    </div>  
+  </footer>
+</section>
+</body>
+
+</html>
