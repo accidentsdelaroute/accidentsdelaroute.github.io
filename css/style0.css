@@ -412,10 +412,27 @@ section {
 
 
 /* Wrapper */
-    #submenu31 a:hover {	 
-		color: yellow;
-	}
   
+#menu-scatter > li > a {
+  border-radius: 4px;
+}
+#menu-scatter > li + li {
+  margin-left: 2px;
+}
+#menu-scatter > li.active > a,
+#menu-scatter > li.active > a:hover,
+#menu-scatter > li.active > a:focus {
+  color: yellow;
+  background-color: red;
+}
+#menu-scatter > .active > a > .badge {
+  color: red;
+  background-color: #fff;
+}
+#menu-scatter > li > a > .badge {
+  margin-left: 3px;
+}
+
 /* Footer */
 
 #conclu {
