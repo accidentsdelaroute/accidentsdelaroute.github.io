@@ -12,11 +12,11 @@
 
 	body {
 		background: url("../images/chausee3.jpg");
-		background-size : 100%;
+		background-size : 40cm 400cm;
 	}
 
-section {
-	text-align: center;
+        section {
+	        text-align: center;
         }
 
 /* Header */
