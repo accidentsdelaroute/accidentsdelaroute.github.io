@@ -3,7 +3,7 @@ Highcharts.chart('container', {
         type: 'bar'
     },
     title: {
-          text: 'Les 10 départements les plus meurtriers en 2015'
+          text: 'Les 10 départements les plus meurtriers en 2015. (Source: ONISR, 2015)'
            
           },
     subtitle: { 
